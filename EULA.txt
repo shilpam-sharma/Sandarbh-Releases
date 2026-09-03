@@ -1,0 +1,172 @@
+SANDARBH END-USER LICENSE AGREEMENT
+===================================
+
+Version 1.4.0 — 2 September 2026
+
+This End-User License Agreement ("Agreement") is a legal agreement between
+you (an individual or a single entity, "You") and Dr. Shilpam Sharma ("the
+Author") for the Sandarbh software application, including its executable
+files, bundled data, and accompanying documentation (collectively, "the
+Software").
+
+By installing, copying, or otherwise using the Software — or by checking the
+acceptance box in the installer — You agree to be bound by the terms of this
+Agreement. If You do not agree, do not install or use the Software.
+
+----------------------------------------------------------------------------
+
+1. Definitions
+--------------
+
+- "the Software" means the Sandarbh application as distributed by the
+  Author, in object-code (executable) form only.
+- "Third-Party Components" means the open-source libraries incorporated into
+  the Software, each listed with its own license in the file
+  THIRD-PARTY-NOTICES.txt distributed with the Software.
+- "Your Content" means the reference libraries, documents, PDF files,
+  citation styles, and other data You create, import, or open with the
+  Software.
+
+2. License grant
+----------------
+
+The Author grants You a worldwide, royalty-free, non-exclusive,
+non-transferable license to:
+
+- install and run the Software on any number of computers that You own or
+  control;
+- use the Software for any purpose, personal, academic, or commercial,
+  without payment of any fee;
+- make backup copies of the installer for Your own archival use.
+
+The Software is provided free of charge. No license fee, subscription, or
+activation is required.
+
+3. Restrictions
+---------------
+
+Except to the extent that applicable law or the license of a Third-Party
+Component expressly permits otherwise, You may not:
+
+- a. distribute, publish, sell, rent, lease, sublicense, or lend the
+  Software to any third party. You may direct others to obtain it from the
+  Author's official distribution channel.
+- b. modify, adapt, translate, or create derivative works of the Software;
+- c. reverse engineer, decompile, or disassemble the Software, or attempt to
+  derive its source code, except (i) as Section 6 permits for the
+  Third-Party Components, or (ii) to the limited extent that applicable law
+  expressly permits despite this restriction;
+- d. remove, alter, or obscure any copyright, trademark, or other
+  proprietary notice in the Software or its documentation;
+- e. use the name "Sandarbh", the Author's name, or any Sandarbh logo to
+  endorse or promote products derived from the Software without prior
+  written permission;
+- f. use the Software in any manner that violates applicable law.
+
+4. Ownership
+------------
+
+The Software is licensed, not sold. The Author retains all right, title, and
+interest in and to the Software, including all intellectual-property rights.
+The Software's source code is not published and is not part of this
+distribution. This Agreement does not grant You any rights to the Author's
+trademarks or service marks.
+
+5. Your Content and privacy
+---------------------------
+
+- Your Content is Yours. The Author claims no ownership of Your Content and
+  has no access to it. It is stored as ordinary files on Your computer.
+- The Software runs offline. It contains no analytics, telemetry, tracking,
+  or automatic update mechanism, and sends no information about You or Your
+  Content to the Author or to any third party.
+- Online look-up is initiated only by You. When You explicitly use a feature
+  that fetches reference metadata (for example "Add by DOI" or an online
+  catalogue search), the Software contacts the public bibliographic service
+  You invoke — such as Crossref, PubMed, OpenAlex, arXiv, Open Library,
+  Unpaywall, or a DOI resolver — and sends only the identifier or search
+  terms You entered. No such request is made otherwise.
+- The local server binds to 127.0.0.1 only and requires a per-session token,
+  so the word-processor connectors on Your machine can reach it and nothing
+  off Your machine can.
+
+6. Third-Party Components
+-------------------------
+
+The Software incorporates the Third-Party Components listed in
+THIRD-PARTY-NOTICES.txt, each used under its own open-source license. Those
+licenses govern Your rights in those components and are not limited by this
+Agreement. Where a Third-Party Component's license grants You rights that
+Section 3 would otherwise restrict — including the right to reverse engineer
+for interoperability, or to modify and replace that component — that license
+prevails for that component.
+
+In particular, the Qt libraries and their Python bindings (PySide6,
+shiboken6) are used under the GNU Lesser General Public License, version 3
+("LGPL-3.0"). The full text of the LGPL-3.0 and of the GNU General Public
+License version 3, which it incorporates by reference, is distributed with
+the Software (licenses/LGPL-3.0.txt, licenses/GPL-3.0.txt). You may obtain
+the complete corresponding source code of these components, and of Qt
+itself, from https://download.qt.io/. The Software ships PySide6 and the Qt
+libraries as separate files; You may replace them with a compatible version
+of Your own, as the LGPL-3.0 permits.
+
+curl/certifi's CA-certificate bundle is used under the Mozilla Public
+License 2.0; its source is at https://github.com/certifi/python-certifi.
+
+7. Academic use and citation
+----------------------------
+
+You are encouraged to use the Software in the preparation of scholarly work.
+If the Software contributes to a publication, a citation is appreciated but
+not required:
+
+    Sharma, Shilpam. Sandarbh: an offline-first citation manager (version
+    1.4.0), 2026.
+
+8. Disclaimer of warranty
+-------------------------
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND
+NON-INFRINGEMENT. THE AUTHOR DOES NOT WARRANT THAT THE SOFTWARE WILL BE
+ERROR-FREE, THAT IT WILL MEET YOUR REQUIREMENTS, OR THAT DEFECTS WILL BE
+CORRECTED. YOU BEAR THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE
+SOFTWARE, AND AS TO THE ACCURACY OF ANY CITATION OR BIBLIOGRAPHY IT
+PRODUCES. YOU ARE RESPONSIBLE FOR VERIFYING ITS OUTPUT AND FOR KEEPING
+BACKUPS OF YOUR CONTENT.
+
+9. Limitation of liability
+--------------------------
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR
+EXEMPLARY DAMAGES, OR FOR ANY LOSS OF DATA, PROFITS, OR GOODWILL, ARISING
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THIS AGREEMENT, EVEN IF ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGES. NOTHING IN THIS AGREEMENT LIMITS
+LIABILITY THAT CANNOT BE LIMITED UNDER APPLICABLE LAW.
+
+10. Term and termination
+------------------------
+
+This Agreement is effective until terminated. It terminates automatically if
+You breach any of its terms. On termination You must stop using the Software
+and delete all copies in Your possession. Sections 3, 4, 8, 9, and 11
+survive termination. You may terminate at any time by uninstalling the
+Software.
+
+11. General
+-----------
+
+This Agreement is the entire agreement between You and the Author concerning
+the Software and supersedes any prior understanding. If any provision is
+held unenforceable, the remaining provisions remain in effect. The Author's
+failure to enforce any provision is not a waiver of it. The Author may issue
+revised versions of this Agreement with new releases of the Software; the
+version accompanying a release governs that release.
+
+12. Contact
+-----------
+
+Dr. Shilpam Sharma — sharma.shilpam@gmail.com
