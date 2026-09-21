@@ -1,7 +1,7 @@
 SANDARBH END-USER LICENSE AGREEMENT
 ===================================
 
-Version 1.4.0 — 2 September 2026
+Version 1.5.0 — 21 September 2026
 
 This End-User License Agreement ("Agreement") is a legal agreement between
 you (an individual or a single entity, "You") and Dr. Shilpam Sharma ("the
@@ -122,7 +122,7 @@ If the Software contributes to a publication, a citation is appreciated but
 not required:
 
     Sharma, Shilpam. Sandarbh: an offline-first citation manager (version
-    1.4.0), 2026.
+    1.5.0), 2026.
 
 8. Disclaimer of warranty
 -------------------------
@@ -137,15 +137,43 @@ SOFTWARE, AND AS TO THE ACCURACY OF ANY CITATION OR BIBLIOGRAPHY IT
 PRODUCES. YOU ARE RESPONSIBLE FOR VERIFYING ITS OUTPUT AND FOR KEEPING
 BACKUPS OF YOUR CONTENT.
 
-9. Limitation of liability
---------------------------
+9. No liability
+---------------
 
-TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
-AUTHOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR
-EXEMPLARY DAMAGES, OR FOR ANY LOSS OF DATA, PROFITS, OR GOODWILL, ARISING
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THIS AGREEMENT, EVEN IF ADVISED
-OF THE POSSIBILITY OF SUCH DAMAGES. NOTHING IN THIS AGREEMENT LIMITS
-LIABILITY THAT CANNOT BE LIMITED UNDER APPLICABLE LAW.
+The Software is provided free of charge. TO THE MAXIMUM EXTENT PERMITTED BY
+APPLICABLE LAW, THE AUTHOR SHALL NOT BE LIABLE TO YOU OR TO ANY THIRD PARTY
+FOR ANY LOSS, DAMAGE, CLAIM, COST, OR EXPENSE OF ANY KIND WHATSOEVER —
+WHETHER DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, PUNITIVE, OR
+EXEMPLARY, AND INCLUDING ANY LOSS OF DATA, PROFITS, OR GOODWILL — ARISING
+OUT OF OR IN ANY WAY CONNECTED WITH:
+
+(a) the Software, its use, or any inability to use it;
+
+(b) any defect, error, interruption, or failure of the Software;
+
+(c) any citation, bibliography, or other output it produces, whether or not
+that output is accurate, complete, or correctly formatted;
+
+(d) any loss, corruption, or disclosure of Your Content;
+
+(e) any change a word processor makes to Your document as a result of Your
+using the Software; or
+
+(f) any Third-Party Component.
+
+THIS EXCLUSION APPLIES WHATEVER THE LEGAL THEORY — CONTRACT, TORT (INCLUDING
+NEGLIGENCE), STRICT LIABILITY, OR OTHERWISE — AND EVEN IF THE AUTHOR HAS
+BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGE.
+
+You are solely responsible for verifying every citation and reference the
+Software produces before You rely on, submit, or publish it; for keeping
+Your own backups of Your Content; and for deciding whether the Software is
+suitable for Your purpose before You use it on work that matters.
+
+Nothing in this Agreement excludes or limits any liability that cannot
+lawfully be excluded or limited. Where the law of Your jurisdiction does not
+allow part of this exclusion, that part applies only to the extent the law
+allows, and the remainder continues to apply in full.
 
 10. Term and termination
 ------------------------

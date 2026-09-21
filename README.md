@@ -20,18 +20,18 @@ Get the latest from the [**Releases**](../../releases/latest) page.
 Each file ships with a `.sha256` alongside it. Verify before running:
 
 ```bash
-sha256sum -c Sandarbh-1.4.0-x86_64.AppImage.sha256
+sha256sum -c Sandarbh-1.5.0-x86_64.AppImage.sha256
 ```
 
 ```powershell
-Get-FileHash .\Sandarbh-1.4.0-Setup.exe -Algorithm SHA256
+Get-FileHash .\Sandarbh-1.5.0-Setup.exe -Algorithm SHA256
 ```
 
 ### Running the AppImage
 
 ```bash
-chmod +x Sandarbh-1.4.0-x86_64.AppImage
-./Sandarbh-1.4.0-x86_64.AppImage
+chmod +x Sandarbh-1.5.0-x86_64.AppImage
+./Sandarbh-1.5.0-x86_64.AppImage
 ```
 
 ## What it does
