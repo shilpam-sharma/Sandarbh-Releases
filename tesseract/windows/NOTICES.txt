@@ -1,0 +1,140 @@
+Tesseract OCR, bundled with Sandarbh
+====================================
+
+Sandarbh reads scanned PDFs by running Tesseract as a separate program.
+Sandarbh does not link to Tesseract or to any library below; each is used
+under its own licence, which is not affected by Sandarbh's EULA and does
+not affect it.  Full licence texts are in the licenses/ folder beside this
+file.  The libraries were stripped of debug symbols and are otherwise
+unmodified.
+
+Built from: tesseract v5.4.0.20240606, the UB Mannheim Windows build (https://github.com/UB-Mannheim/tesseract).  Its libraries are the MSYS2
+mingw-w64 packages current when that build was made; their build recipes
+and sources are at https://github.com/msys2/MINGW-packages and
+https://packages.msys2.org/.  Versions, where a file records one:
+
+  libcrypto-3-x64.dll          3.3.1.0
+  libiconv-2.dll               1.17.0.0
+  liblz4.dll                   1.9.4.0
+  liblzma-5.dll                5.6.2.0
+  libwinpthread-1.dll          1.0.0.0
+
+Components
+----------
+
+bzip2  (bzip2-1.0.6)
+  source:  https://sourceware.org/bzip2/
+  licence: licenses/bzip2.txt
+  files:   libbz2-1.dll
+
+Expat  (MIT)
+  source:  https://libexpat.github.io/
+  licence: licenses/expat.txt
+  files:   libexpat-1.dll
+
+GCC runtime libraries  (GPL-3.0-or-later WITH GCC-exception-3.1)
+  source:  https://gcc.gnu.org/
+  licence: licenses/gcc-runtime.txt, licenses/GPL-3.0.txt
+  files:   libgcc_s_seh-1.dll, libstdc++-6.dll
+
+giflib  (MIT)
+  source:  https://giflib.sourceforge.net/
+  licence: licenses/giflib.txt
+  files:   libgif-7.dll
+
+GNU libiconv  (LGPL-2.1-or-later)
+  source:  https://www.gnu.org/software/libiconv/
+  licence: licenses/LGPL-2.1.txt
+  files:   libiconv-2.dll
+
+JBIG-KIT  (GPL-2.0-or-later)
+  source:  https://www.cl.cam.ac.uk/~mgk25/jbigkit/
+  licence: licenses/jbigkit.txt, licenses/GPL-2.0.txt
+  files:   libjbig-0.dll
+
+Leptonica  (BSD-2-Clause)
+  source:  http://www.leptonica.org/
+  licence: licenses/leptonica.txt
+  files:   libleptonica-6.dll
+
+LERC  (Apache-2.0)
+  source:  https://github.com/Esri/lerc
+  licence: licenses/Apache-2.0.txt
+  files:   libLerc.dll
+
+libarchive  (BSD-2-Clause)
+  source:  https://www.libarchive.org/
+  licence: licenses/libarchive.txt
+  files:   libarchive-13.dll
+
+libb2 (BLAKE2)  (CC0-1.0)
+  source:  https://github.com/BLAKE2/libb2
+  licence: licenses/CC0-1.0.txt
+  files:   libb2-1.dll
+
+libdeflate  (MIT)
+  source:  https://github.com/ebiggers/libdeflate
+  licence: licenses/libdeflate.txt
+  files:   libdeflate.dll
+
+libjpeg-turbo  (IJG AND BSD-3-Clause)
+  source:  https://libjpeg-turbo.org/
+  licence: licenses/libjpeg-turbo.txt
+  files:   libjpeg-8.dll
+
+libpng  (Libpng)
+  source:  http://www.libpng.org/pub/png/libpng.html
+  licence: licenses/libpng.txt
+  files:   libpng16-16.dll
+
+LibTIFF  (libtiff)
+  source:  https://libtiff.gitlab.io/libtiff/
+  licence: licenses/libtiff.txt
+  files:   libtiff-6.dll
+
+libwebp  (BSD-3-Clause)
+  source:  https://chromium.googlesource.com/webm/libwebp
+  licence: licenses/libwebp.txt
+  files:   libsharpyuv-0.dll, libwebp-7.dll, libwebpmux-3.dll
+
+LZ4  (BSD-2-Clause)
+  source:  https://lz4.org/
+  licence: licenses/lz4.txt
+  files:   liblz4.dll
+
+MinGW-w64 winpthreads  (MIT AND ZPL-2.1)
+  source:  https://www.mingw-w64.org/
+  licence: licenses/winpthreads.txt
+  files:   libwinpthread-1.dll
+
+OpenJPEG  (BSD-2-Clause)
+  source:  https://www.openjpeg.org/
+  licence: licenses/openjpeg.txt
+  files:   libopenjp2-7.dll
+
+OpenSSL  (Apache-2.0)
+  source:  https://www.openssl.org/
+  licence: licenses/openssl.txt, licenses/Apache-2.0.txt
+  files:   libcrypto-3-x64.dll
+
+Tesseract OCR  (Apache-2.0)
+  source:  https://github.com/tesseract-ocr/tesseract
+  licence: licenses/tesseract.txt, licenses/Apache-2.0.txt
+  files:   libtesseract-5.dll, tesseract.exe
+
+XZ Utils (liblzma)  (0BSD)
+  source:  https://tukaani.org/xz/
+  licence: licenses/xz.txt
+  files:   liblzma-5.dll
+
+zlib  (Zlib)
+  source:  https://zlib.net/
+  licence: licenses/zlib.txt
+  files:   zlib1.dll
+
+Zstandard  (BSD-3-Clause)
+  source:  https://facebook.github.io/zstd/
+  licence: licenses/zstd.txt
+  files:   libzstd.dll
+
+Assembled 2026-09-22.

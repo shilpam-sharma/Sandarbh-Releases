@@ -20,18 +20,18 @@ Get the latest from the [**Releases**](../../releases/latest) page.
 Each file ships with a `.sha256` alongside it. Verify before running:
 
 ```bash
-sha256sum -c Sandarbh-1.5.0-x86_64.AppImage.sha256
+sha256sum -c Sandarbh-1.6.0-x86_64.AppImage.sha256
 ```
 
 ```powershell
-Get-FileHash .\Sandarbh-1.5.0-Setup.exe -Algorithm SHA256
+Get-FileHash .\Sandarbh-1.6.0-Setup.exe -Algorithm SHA256
 ```
 
 ### Running the AppImage
 
 ```bash
-chmod +x Sandarbh-1.5.0-x86_64.AppImage
-./Sandarbh-1.5.0-x86_64.AppImage
+chmod +x Sandarbh-1.6.0-x86_64.AppImage
+./Sandarbh-1.6.0-x86_64.AppImage
 ```
 
 ## What it does
@@ -47,6 +47,8 @@ chmod +x Sandarbh-1.5.0-x86_64.AppImage
   CSL-JSON, `zotero.sqlite`), Mendeley, RefWorks and more.
 * **Look up by DOI, PubMed ID, ISBN or arXiv ID**, or search Crossref,
   OpenAlex, PubMed and others.
+* **Import a folder of PDFs** and have each one identified and looked up —
+  including old **scanned papers**, which are read with OCR.
 * **PDFs** attached to references — stored or linked — with highlighting and
   sticky notes.
 * **`{Author, Year #45}`** temporary citations, converted on demand.
@@ -73,6 +75,11 @@ COM, which does not exist on Linux.
 Sandarbh bundles open-source components, including Qt (via PySide6) under the
 LGPL v3. Their licences and notices are in
 [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt) and [licenses/](licenses).
+
+The **Tesseract** OCR engine ships inside the app as a separate program, with
+the libraries it loads — some under the GPL and LGPL. Their licences, versions
+and where to get their source are in [tesseract/windows](tesseract/windows) and
+[tesseract/linux](tesseract/linux) (also in the app's `tesseract/` folder).
 
 ## Author
 

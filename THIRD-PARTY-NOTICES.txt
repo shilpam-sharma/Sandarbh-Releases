@@ -7,6 +7,8 @@ The Qt libraries and their Python bindings (PySide6, shiboken6) are used under t
 
 curl/certifi's CA bundle is used under the Mozilla Public License 2.0; its source is at https://github.com/certifi/python-certifi .
 
+The Tesseract OCR engine and the libraries it loads ship as a separate program in the tesseract/ folder, run by Sandarbh only to read scanned PDFs.  Their licenses, including the GPL and LGPL components among them and where to obtain their source, are in tesseract/NOTICES.txt.
+
 ------------------------------------------------------------------------
 
 annotated-types  0.6.0
