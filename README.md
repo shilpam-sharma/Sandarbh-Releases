@@ -20,18 +20,18 @@ Get the latest from the [**Releases**](../../releases/latest) page.
 Each file ships with a `.sha256` alongside it. Verify before running:
 
 ```bash
-sha256sum -c Sandarbh-1.6.0-x86_64.AppImage.sha256
+sha256sum -c Sandarbh-1.7.0-x86_64.AppImage.sha256
 ```
 
 ```powershell
-Get-FileHash .\Sandarbh-1.6.0-Setup.exe -Algorithm SHA256
+Get-FileHash .\Sandarbh-1.7.0-Setup.exe -Algorithm SHA256
 ```
 
 ### Running the AppImage
 
 ```bash
-chmod +x Sandarbh-1.6.0-x86_64.AppImage
-./Sandarbh-1.6.0-x86_64.AppImage
+chmod +x Sandarbh-1.7.0-x86_64.AppImage
+./Sandarbh-1.7.0-x86_64.AppImage
 ```
 
 ## What it does
@@ -48,7 +48,9 @@ chmod +x Sandarbh-1.6.0-x86_64.AppImage
 * **Look up by DOI, PubMed ID, ISBN or arXiv ID**, or search Crossref,
   OpenAlex, PubMed and others.
 * **Import a folder of PDFs** and have each one identified and looked up —
-  including old **scanned papers**, which are read with OCR.
+  including old **scanned papers**, read with OCR, and papers with no DOI,
+  found by the journal, volume and pages printed on them. Review the
+  uncertain ones one by one, and correct any field by hand.
 * **PDFs** attached to references — stored or linked — with highlighting and
   sticky notes.
 * **`{Author, Year #45}`** temporary citations, converted on demand.

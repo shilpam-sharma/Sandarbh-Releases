@@ -1,7 +1,7 @@
 SANDARBH END-USER LICENSE AGREEMENT
 ===================================
 
-Version 1.6.0 — 22 September 2026
+Version 1.7.0 — 23 September 2026
 
 This End-User License Agreement ("Agreement") is a legal agreement between
 you (an individual or a single entity, "You") and Dr. Shilpam Sharma ("the
@@ -122,7 +122,7 @@ If the Software contributes to a publication, a citation is appreciated but
 not required:
 
     Sharma, Shilpam. Sandarbh: an offline-first citation manager (version
-    1.6.0), 2026.
+    1.7.0), 2026.
 
 8. Disclaimer of warranty
 -------------------------
