@@ -20,18 +20,18 @@ Get the latest from the [**Releases**](../../releases/latest) page.
 Each file ships with a `.sha256` alongside it. Verify before running:
 
 ```bash
-sha256sum -c Sandarbh-1.7.1-x86_64.AppImage.sha256
+sha256sum -c Sandarbh-1.8.0-x86_64.AppImage.sha256
 ```
 
 ```powershell
-Get-FileHash .\Sandarbh-1.7.1-Setup.exe -Algorithm SHA256
+Get-FileHash .\Sandarbh-1.8.0-Setup.exe -Algorithm SHA256
 ```
 
 ### Running the AppImage
 
 ```bash
-chmod +x Sandarbh-1.7.1-x86_64.AppImage
-./Sandarbh-1.7.1-x86_64.AppImage
+chmod +x Sandarbh-1.8.0-x86_64.AppImage
+./Sandarbh-1.8.0-x86_64.AppImage
 ```
 
 ## What it does
@@ -51,6 +51,10 @@ chmod +x Sandarbh-1.7.1-x86_64.AppImage
   including old **scanned papers**, read with OCR, and papers with no DOI,
   found by the journal, volume and pages printed on them. Review the
   uncertain ones one by one, and correct any field by hand.
+* **Import from EndNote or BibTeX and get the rest**: missing DOIs are looked
+  up by journal, volume, pages and authors, and PDFs fetched — free
+  open-access copies directly, the rest through your own library access in a
+  built-in browser, where you complete any sign-in or check yourself.
 * **PDFs** attached to references — stored or linked — with highlighting and
   sticky notes.
 * **`{Author, Year #45}`** temporary citations, converted on demand.
@@ -71,6 +75,9 @@ COM, which does not exist on Linux.
 * **Linux** x86-64 with glibc 2.35 or newer (Ubuntu 22.04+, Fedora 36+,
   Debian 12+). FUSE is used to mount the AppImage; if it is unavailable, run it
   with `--appimage-extract-and-run`.
+  The built-in browser (for fetching PDFs through your library) uses the
+  system's NSS and ALSA libraries, which desktop installations have
+  (otherwise `sudo apt install libnss3 libasound2`).
 
 ## Third-party components
 
